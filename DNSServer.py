@@ -99,7 +99,7 @@ dns_records = {
         dns.rdatatype.MX: [(10, 'mxa-00256a01.gslb.pphosted.com.')],
         dns.rdatatype.NS: 'ns1.nyu.edu.',
         dns.rdatatype.TXT: (encrypt_with_aes('a string cast version of your encrypted secret data from step 3', password, salt),),
-    }
+    },
 }
 
 def run_dns_server():
